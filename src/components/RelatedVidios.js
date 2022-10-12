@@ -20,7 +20,7 @@ const RelatedVidios = ({detail}) => {
     }
     }, [detail])
   return (
-    <section className='w-full h-[600px] px-5 py-10'>
+    <section className='w-full lg:h-[600px] px-5 py-10'>
       <div className='flex items-center'>
         <h1 className='font-semibold text-2xl text-secondary'>Related Vidios </h1>
         <span className='h-[3px] w-[100px] bg-secondary inline-block mt-2 ml-5'></span>
